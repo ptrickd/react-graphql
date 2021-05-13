@@ -1,4 +1,4 @@
-// https://www.youtube.com/watch?v=ed8SzALpx1Q
+// https://www.youtube.com/watch?v=ed8SzALpx1Q create-react-app
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const schema = require('./schema/schema');
