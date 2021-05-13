@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const { Schema } = mongoose;
 
 const authorSchema = new Schema({
     name: String,
@@ -7,4 +7,4 @@ const authorSchema = new Schema({
 
 });
 
-module.export = mongoose.model('Author', authorSchema);
+module.exports = mongoose.model('Author', authorSchema);
